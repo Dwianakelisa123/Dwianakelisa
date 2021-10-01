@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MULTIMEDIA</title>
+    <!--Mmebuat Logo atas -->
+    <link rel="icon" type="image/x-icon" href="assets/image/batagor.jpg" />
+</head>
+<body>
+    <h1>Multimedia</h1>
+    <!-- Gambar yang berasal dari satu folder yang sama -->
+    <img src="nasi_goreng.jpg" alt="nasi_goreng" width="300" title="no 1"><br>
+    <!-- Gambar yang berasal dari folder berbeda dengan ukuran  -->
+    <img src="batagor.jpg" alt="batagor" width="400" title="no 2"> <br>
+    <!-- Gambar yang berasal dari dari sebuah website -->
+    <img src="https://i.pinimg.com/originals/dc/db/ef/dcdbef60c35d605042c6e4359ea4dcf5.jpg" alt="anime" width="300" title="no 3">
+    <!-- Gambar bergerak dari arah kanan ke kiri menggunakan tag marquee  -->
+    <marquee scrollamount="25" title="no4" behavior="alternate" direction="right"><img src="nasi_goreng.jpg" alt="nasi_goreng" width="300"></marquee> <br>
+    <!-- Audio -->
+
+    <audio controls autoplay>
+        <source src="assets/musik/cinta dan rahasia.mp3" type="audio/mpeg">
+    </audio><br>
+
+    <video width="800" height="450" controls>
+        <source src="assets/video/favorit.mp4" type="video/mp4">
+    </video>
+    
+</body>
+<style>
+    body{
+        justify-content: center;
+        text-align: center;
+    }
+    video{
+        margin-top: 20px;
+    }
+    img{
+        margin-top: 20px;
+    }
+    audio{
+        margin-top: 20px;
+    }
+    marquee{
+        margin-top: 20px;
+    }
+</style>
+</html>

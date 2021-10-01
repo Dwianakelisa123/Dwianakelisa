@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Login</title>
+</head>
+<body>
+    <h1>Form Login</h1>
+    <div class="container"></div>
+    <form action="">
+        <table>
+        <tr>
+            <td> Username  </td> 
+            <td>:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Password </td>
+            <td>:</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td>Tanggal </td>
+            <td>:</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Nomor Telepon </td>
+            <td>:</td>
+            <td><input type="number" placeholder="Maukkan Nomor Telepon"></td>
+        </tr>
+        <tr>
+            <td>Asal Kota</td>
+            <td>:</td>
+            <td><select>
+                <option selected>Purwokerto</option>
+                <option>Jakarta</option>
+                <option>Palembang</option>
+                <option>Jakarta Selatan</option>
+                <option>Bumiayu</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td><textarea name="Alamat" id="" cols="30" rows="10" placeholder="Silahkan tuliskan alamat anda"></textarea></td>
+        </tr>
+        <tr>
+            <td>Hobi</td>
+            <td>:</td>
+            <td><input type="checkbox" id="membaca buku"> <label for="#membaca buku"> Membaca Buku</label>
+            <input type="checkbox" id="traveling"> <label for="#traveling"> traveling</label>
+            <input checked type="checkbox" id="menulis"> <label for="#menulis"> Menulis</label></td>
+        </tr>
+        <tr>
+            <td>Makanan Favorit</td>
+            <td>:</td>
+            <td><input list="listmakanan">
+                <datalist id="listmakanan">
+                <option value="Nasi Goreng">
+                <option value="Bakmie Rebus">
+                <option value="Roti Bakar">
+                <option value="Indomie">
+                <option value="Batagor">
+                <option value="Ayam Kremes"
+                </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit" style="margin-top: 15px; margin-right: 5px;">
+                <input type="reset" value="Reset">
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><button type="submit" style="margin-top: 10px;" >Next Page</button></td>
+        </tr>
+        </table>
+    </form>
+</div>
+</body>
+<style>
+    body{
+        font-family: arial;
+    }
+    h1{
+        text-align: center;
+    }
+    form input{
+        margin-bottom: 5px;
+    }
+    form table{
+        margin-left: 30rem;
+    }
+    .submit{
+        margin-left: 35rem;
+        margin-right: 8rem;
+        margin-top: 30px;
+    }
+</style>
+</html>
